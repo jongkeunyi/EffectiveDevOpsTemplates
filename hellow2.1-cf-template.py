@@ -31,6 +31,7 @@ from troposphere.ec2 import (
 )
 
 ApplicationPort = "3000"
+ApplicationPort2 = "80"
 t = Template()
 
 t.set_description("Effective DevOps in AWS: HelloWorld web application")
